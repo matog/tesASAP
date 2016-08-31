@@ -1,0 +1,105 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Book{decreto103,
+  Title                    = {\emph{Se aprueba el Plan de Modernización}},
+  Author                   = {{Decreto 103}},
+  Date                     = {2001-01-25},
+  Year                     = {2001},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar}
+}
+
+@Book{decreto357,
+  Title                    = {Cr�ase el Consejo Nacional de Coordinaci�n de Pol�ticas Sociales en el �mbito de la Presidencia de la Naci�n},
+  Author                   = {{Decreto 357}},
+  Date                     = {2002-02-22},
+  Year                     = {2002},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar},
+  Owner                    = {mato},
+  Timestamp                = {2015.10.22}
+}
+
+@Book{decreto558,
+  Title                    = {\emph{Se crea de la Unidad de Reforma y Modernización del Estado}},
+  Author                   = {{Decreto 558}},
+  Date                     = {1996-05-24},
+  Year                     = {1996},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar}
+}
+
+@Book{decreto928,
+  Title                    = {\emph{Establécese que los Organismos Descentralizados mencionados en el articulo 22 del Decreto 558/96 deberán diseñar un Plan Estratégico en el marco del nuevo Rol del Estado, que esté orientado al ciudadano, a la medición de resultados y a la jerarquización y participación de sus recursos humanos.}},
+  Author                   = {{Decreto 928}},
+  Date                     = {1996-08-12},
+  Year                     = {1996},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar}
+}
+
+@Book{ley24156,
+  Title                    = {Ley de Administración Financiera y de los Sistema de control del Sector Público},
+  Author                   = {{Ley 24.156}},
+  Date                     = {1992-10-26},
+  Year                     = {1992},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar},
+  Owner                    = {grandim},
+  Timestamp                = {2015.10.21}
+}
+
+@Book{ley24629,
+  Title                    = { },
+  Author                   = {{Ley 24.629}},
+  Date                     = {1996-3-8},
+  Year                     = {1996},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar},
+  Owner                    = {grandim},
+  Timestamp                = {2015.10.21}
+}
+
+@Book{ley25512,
+  Title                    = {Ley de Administraci�n de los Recursos P�blicos},
+  Author                   = {{Ley 25.512}},
+  Date                     = {1999-9-15},
+  Year                     = {1999},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar},
+  Owner                    = {grandim},
+  Timestamp                = {2015.10.21}
+}
+
+@Book{resolucion416,
+  Title                    = {\emph{Se crea en la órbita de la Secretaria de Gabinete y Coordinación Administrativa de la Jefatura de Gabinete de Ministros, el “Programa de Evaluación de Políticas Públicas”.
+}},
+  Author                   = {{Resolución 416}},
+  Date                     = {2001-11-26},
+  Year                     = {2013},
+  Location                 = {Buenos Aires},
+  Publisher                = {Boletín Oficial de la República Argentina},
+
+  Keywords                 = {normativa-listar},
+  Owner                    = {grandim},
+  Shorttitle               = {\emph{Se aprueba el modelo de la segunda enmienda del convenio de préstamo a suscribirse con el Banco Internacional de Reconstrucción y Fomento, destinado a redireccionar los fondos no utilizados del Préstamo}},
+  Timestamp                = {2015.10.20},
+  Tittleaddon              = {Se aprueba el modelo de la segunda enmienda del convenio de préstamo a suscribirse con el Banco Internacional de Reconstrucción y Fomento, destinado a redireccionar los fondos no utilizados del Préstamo}
+}
+

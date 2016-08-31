@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[sort&compress]{natbib}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage[spanish]{babel}
+\usepackage[acronym,shortcuts,nonumberlist,toc,section=section,numberedsection=false]{glossaries}
+%\usepackage{cite} %para contraer las referencias
+\usepackage{csquotes} % Por Biblatex http://tex.stackexchange.com/questions/229638/package-biblatex-warning-babel-polyglossia-detected-but-csquotes-missing
+\usepackage{soul} % Para tachar texto
+\usepackage{appendix}
+
+
+% Paquetes para la bibliografía
+\usepackage[
+    style       =authoryear,
+    sortcites   =true,
+    bibencoding =ascii,
+    sorting     =nyt,
+    datelabel   =comp,
+%    backref     =true, %para ver en el listado de la bibliografía donde la página donde se cita
+    backend     =bibtex]
+{biblatex}
+%\DeclareLanguageMapping{spanish}{spanish-apa}
+\renewcommand*{\nameyeardelim}{\addcomma\space} % Agrega una coma entre Apellido y año al citar.
+\addbibresource{biblio.bib}
+\addbibresource{normativa.bib}
+\addbibresource{entrevistas.bib}
+\addbibresource{sitiosweb.bib}
+
+\makeglossaries
+
+
+\input{acronimos}
+
+\begin{document}
+
+% Carátula
+\input{caratula.tex}
+\newpage
+\pagenumbering{Roman} % Arranca la numeración de páginas en números romanos
+\setcounter{page}{1} % La numeración romana empieza con el número 1
+
+\input{evaluacion}
+%\maketitle
+\renewcommand{\acronymname}{Índice de Acrónimos}
+
+% Tabla de Contenidos
+\newpage
+\tableofcontents
+
+% Indice de acrónimos
+\newpage
+\printglossary[type=\acronymtype]
+\printglossary
+\newpage
+
+% Cuerpo principal
+
+\input{prologo}
+\pagenumbering{arabic} % Arranca la numeración de páginas en números arabicos
+\input{introduccion.tex}
+\input{sobre-la-gpr.tex}
+    \input{marco-normativo.tex}
+    \input{prodev.tex}
+\input{sistemas.tex}
+\input{articulacion.tex}
+\input{conclusiones.tex}
+\input{apendice-siempro.tex}
+
+% Bibliografía
+\newpage
+%\addcontentsline{toc}{section}{\protect\numberline{\thesection} Referencias} %Agregamos las referencias al índice, con número
+\addcontentsline{toc}{section}{Referencias} %Agregamos las referencias al índice, sin número
+\nocite{*} % Listamos todo el archivo bib, no sólo lo citado en el cuerpo
+\printbibheading
+\printbibliography[keyword={citar-bib},heading=subbibliography,title={Bibliografía}]
+\printbibliography[keyword={entrevistas},heading=subbibliography,title={Entrevistas}]
+\printbibliography[keyword={normativa-listar},heading=subbibliography,title={Normativa}]
+\printbibliography[keyword={sitiosweb},heading=subbibliography,title={Sitios Web}]
+
+\end{document}
